@@ -1,0 +1,25 @@
+.blogPostContainer {
+  width: 70%;
+}
+.blogHeader {
+  text-align: center;
+}
+
+.blogCategory {
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.postTitle {
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+.postedBy {
+  font-size: 15px;
+  font-style: italic;
+  padding: 10px 0;
+  display: block;
+}

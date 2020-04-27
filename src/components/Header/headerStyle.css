@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.headerMenu a {
+  display: inline-block;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: #565673;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.headerMenu a:hover {
+  color: #5f9ea0;
+}
