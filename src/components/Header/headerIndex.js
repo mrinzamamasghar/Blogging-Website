@@ -5,9 +5,9 @@ function Header(props) {
   return (
     <header className="header">
       <nav className="headerMenu">
-        <a href="#">Home</a>
-        <a href="#">About-Us</a>
-        <a href="#">Contact Us</a>
+        <a href="http://localhost:3000/">Home</a>
+        <a href="http://localhost:3000/">About-Us</a>
+        <a href="http://localhost:3000/">Contact Us</a>
       </nav>
       <div>social links</div>
     </header>

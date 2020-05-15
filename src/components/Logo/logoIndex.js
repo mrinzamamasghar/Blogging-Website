@@ -4,7 +4,7 @@ import "./logoStyle.css";
 function LogoIndex(props) {
   return (
     <div className="logo">
-      <a href="#">inzamam asghar</a>
+      <a href="http://localhost:3000/">inzamam asghar</a>
     </div>
   );
 }

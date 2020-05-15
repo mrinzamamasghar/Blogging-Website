@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NavbarStyle.css";
-import {Link} from 'react-router-dom' 
+import { NavLink } from "react-router-dom";
 function NavBarIndex(props) {
   const formSubmit = (e) => {
     e.preventDefault();
@@ -18,10 +18,10 @@ function NavBarIndex(props) {
     <div className="navbar">
       <ul className="navBarMenu">
         <li>
-          <Link to="/">Home</Link>
-          <Link to="/post">Post</Link>
-          <Link to="/contact-us">Contact-Us</Link>
-          <Link to="/about-us">About-Us</Link>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/post">Post</NavLink>
+          <NavLink to="/contact-us">Contact-Us</NavLink>
+          <NavLink to="/about-us">About-Us</NavLink>
         </li>
       </ul>
       <div className="search">
