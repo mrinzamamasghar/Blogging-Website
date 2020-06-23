@@ -8,9 +8,9 @@ function LayoutIndex(props) {
         {props.children}
         <Sidebar />
       </div>
-      <div>
+      {/* <div>
         <h1>This is my Footer</h1>
-      </div>
+      </div> */}
     </div>
   );
 }

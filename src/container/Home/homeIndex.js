@@ -36,7 +36,7 @@ const ImageGallary = (props) => (
         secondSec={props.secondSec}
       />
       <SidebarImage
-        src={require("../../Assets/BlogPostImages/" + props.imageArr[4])}
+        src={require("../../Assets/BlogPostImages/" + props.imageArr[3])}
         secondSec={props.secondSec}
       />
     </section>

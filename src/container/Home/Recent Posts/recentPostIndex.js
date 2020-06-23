@@ -25,10 +25,10 @@ function RecentPostIndex(props) {
             let grass. Creeping own. Forth, fruitful day first don't dominion,
             behold, every.....
           </p>
-          <button>Read More</button>
+          {/* <button>Read More</button> */}
         </div>
       </Card>
-      <Card style={{ marginBottom: "20px" }}> card1</Card>
+      {/* <Card style={{ marginBottom: "20px" }}> card1</Card> */}
     </div>
   );
 }
